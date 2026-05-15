@@ -22,19 +22,28 @@ An ESP32-based IoT environmental monitoring system developed for real-time air q
 - Arduino IDE
 - Blynk IoT Platform
 
----
+## Communication Protocols Used
+- Wi-Fi communication using ESP32
+- I2C communication for BME680 sensor interfacing
+- Analog sensor interfacing using ADC channels
 
-# Hardware Setup
+## Future Improvements
+- MQTT cloud integration
+- Mobile app notification alerts
+- Data logging and analytics
+- RTOS-based task scheduling
+
+# Prototype Hardware Setup
 
 ![Hardware Setup](images/hardware_setup.png)
 
----
+
 
 # LCD Output
 
 ![LCD Output](images/lcd_output.png)
 
----
+
 
 # Blynk Dashboard
 
